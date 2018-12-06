@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const API_KEY = "your_api_key";
+const API_KEY = "f61ed8647c442ca49dfe7d368b5134b3";
 
 class Recipe extends React.Component {
   state = { activeRecipe: [] };
@@ -33,7 +33,7 @@ class Recipe extends React.Component {
             </h4>
             <p className="active-recipe__website">
               <span>
-                <a href={recipe.publisher_url}> {recipe.publisher_url} </a>
+                <a href={recipe.source_url}> {recipe.publisher_url} </a>
               </span>
             </p>
             <button className="active-recipe__button">
